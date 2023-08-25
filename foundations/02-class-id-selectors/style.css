@@ -9,7 +9,11 @@
 }
 
 #fourth-element{
-  background-color: hsl(120, 73%, 75%);
+  background-color: hsl(120, 57%, 71%);
   font-size: 24px;
   font-weight: bold;
+}
+
+.third-element{
+  font-size: 24px;
 }
