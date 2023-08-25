@@ -2,3 +2,14 @@
   background-color: rgb(255, 128, 114);
   font-family: Verdana, "DejaVu Sans", sans-serif;
 }
+
+#second-element {
+  color: #0096FF;
+  font-size: 36px;
+}
+
+#fourth-element{
+  background-color: hsl(120, 73%, 75%);
+  font-size: 24px;
+  font-weight: bold;
+}
