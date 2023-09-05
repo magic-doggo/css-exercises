@@ -24,6 +24,16 @@ body {
   /* display: flex; */
 }
 
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .top {
+  display: flex;
+  justify-content: space-between;
+} */
+
 .icon {
   color: royalblue;
   font-size: 26px;
