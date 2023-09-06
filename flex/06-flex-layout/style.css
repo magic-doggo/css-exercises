@@ -80,6 +80,32 @@ input {
   display: flex;
   justify-content: center;
 } */
-.content {
-  align-self: center;
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee;
+  margin-top: 20px;
 }
+
+.footer .left-links,
+.footer .right-links {
+  display: flex;
+  list-style-type: none;
+  padding: 5px;
+  gap: 20px;
+}
+
+/* .footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee;
+}
+
+.footer .left-links,
+.footer .right-links {
+  display: flex;
+  list-style-type: none;
+  padding: 5px;
+  gap: 20px;
+} */
