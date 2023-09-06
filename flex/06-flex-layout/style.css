@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 /* * {
-  border: 2px solid red;
+  border: 1px solid red;
 } */
 
 body {
@@ -11,8 +11,19 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+/* a {
+  text-decoration: none;
+} */
+
 img {
   width: 600px;
+  display: block;
+  margin: 0 auto;
+  /* display: block;
+  margin: 0 auto; */
 }
 
 button {
@@ -20,6 +31,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
+  margin: 10px;
 }
 
 input {
@@ -27,22 +40,46 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
-  margin-bottom: 16px;
+  margin: 16px auto;
+  display: block;
+  /*  margin: 16px auto;
+  display: block;*/
 }
-
-/* .header {
-  display: flex;
-} */
 
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 5px;
 }
+/* .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+} */
 
 .header .left-links,
 .header .right-links {
   display: flex;
   list-style-type: none;
+  padding: 5px;
+  gap: 20px;
+}
+/* .header .left-links,
+.header .right-links {
+  display: flex;
+  list-style-type: none;
   padding: 20px;
   gap: 20px;
+} */
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+/* .buttons {
+  display: flex;
+  justify-content: center;
+} */
+.content {
+  align-self: center;
 }
