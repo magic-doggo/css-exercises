@@ -5,6 +5,10 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
 }
 
 img {
@@ -25,3 +29,31 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.header .left-links,
+.header .right-links {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  padding: 0;
+}
+
+/* .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.header .left-links,
+.header .right-links {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  padding: 0; to remove the default ul 40px padding
+} */
