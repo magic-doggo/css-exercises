@@ -83,3 +83,31 @@ input {
   gap: 10px;
   padding: 0px;
 }
+
+/* .footer {
+  display: flex;
+  align-self: stretch;
+  justify-content: space-between;
+  padding: 8px;
+  background-color: #eee;
+}
+
+.footer .left-links,
+.footer .right-links {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  padding: 0px;
+} */
+
+.buttons,
+.input { 
+  display: flex;
+  justify-content: center;
+}
+
+/* .buttons,
+.input { 
+  display: flex;
+  justify-content: center;
+} */
