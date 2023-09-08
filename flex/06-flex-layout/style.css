@@ -111,3 +111,8 @@ input {
   display: flex;
   justify-content: center;
 } */
+
+a {
+  color: #666;
+  text-decoration: none;
+}
