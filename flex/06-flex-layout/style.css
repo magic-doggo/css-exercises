@@ -40,9 +40,9 @@ input {
 
 .header {
   display: flex;
-  align-self: stretch;
   justify-content: space-between;
   padding: 8px;
+  align-self: stretch;
 }
 
 .header .left-links,
@@ -68,7 +68,18 @@ input {
   padding: 0; to remove the default ul 40px padding
 } */
 
-.content {
-  justify-content: center;
-  
+.footer {
+  display: flex;
+  align-self: stretch;
+  justify-content: space-between;
+  padding: 8px;
+  background-color: #eee;
+}
+
+.footer .left-links,
+.footer .right-links {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  padding: 0px;
 }
