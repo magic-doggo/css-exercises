@@ -44,7 +44,6 @@ h1 {
   background: royalblue;
   box-sizing: border-box;
   display: flex;
-  flex-basis: 1 0 300px;;
 }
 
 .card {
@@ -68,7 +67,7 @@ h1 {
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
-  padding-right: 80px;
+  padding-right: 80px;;
   /* flex-wrap: nowrap; */
 }
 
@@ -99,12 +98,15 @@ a {
 .boxes {
   display: flex;
   flex-wrap: wrap;
+  padding: 24px;
+  flex: 1 1 200px;
 }
 
 .card {
   flex: 0 1 300px;
   padding: 10px;
   margin: 10px;
+  min-height: 200px;
 }
 
 /* .boxes {
