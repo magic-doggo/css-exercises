@@ -99,14 +99,15 @@ a {
   display: flex;
   flex-wrap: wrap;
   padding: 24px;
-  flex: 1 1 200px;
+  /* flex: 1 1 200px; */
+  height: 800px;
+
 }
 
 .card {
   flex: 0 1 300px;
   padding: 10px;
   margin: 10px;
-  min-height: 200px;
 }
 
 /* .boxes {
