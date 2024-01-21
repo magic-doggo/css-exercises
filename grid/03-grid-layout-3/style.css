@@ -129,6 +129,8 @@
 .footer {
   background-color: #393f4d;
   grid-column: 1 / 3;;
+  display: grid;
+  align-content: center;
 }
 
 .footer p {
