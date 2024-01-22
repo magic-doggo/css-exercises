@@ -7,7 +7,7 @@
   text-align: center;
   display: grid;;
   grid-template-columns: 1fr 4fr;;
-  grid-template-rows: 2fr 1fr 16fr 1fr;
+  /* grid-template-rows: 2fr 1fr 16fr 1fr; */
   gap: 4px;;
 }
 
@@ -122,6 +122,7 @@
   background-color: #FFFFFF;
   color: black;
   text-align: center;
+  height: 200px;
 }
 
 .card p {
